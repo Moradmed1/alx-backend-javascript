@@ -1,0 +1,6 @@
++ eslint@9.11.1
++ typescript@5.6.2
++ @typescript-eslint/eslint-plugin@8.8.0
+added 41 packages from 24 contributors, removed 38 packages, updated 11 packages, moved 7 packages and audited 768 packages in 297.889s
+found 36 vulnerabilities (24 moderate, 12 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
