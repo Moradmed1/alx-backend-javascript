@@ -1,9 +1,15 @@
-function taskFirst() {
-  const task = 'I prefer const when I can.'; // Instantiation avec const
+export function taskFirst() {
+  const task = 'I prefer const when I can.';
   return task;
 }
 
-function taskNext() {
-  let task = 'But sometimes let is okay'; // Instantiation avec let
-  return task;
+export function getLast() {
+  return ' is okay';
+}
+
+export function taskNext() {
+  let combination = 'But sometimes let';
+  combination += getLast();
+
+  return combination;
 }
